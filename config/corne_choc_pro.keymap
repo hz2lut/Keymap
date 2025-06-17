@@ -102,8 +102,8 @@ ht: ht {
          display-name = "ADJUST";
          bindings = <
             &kp F14 &kp F7 &kp F8 &kp F9 &kp F15 &none    &none  &none  &none        &none        &none        &bootloader
-            &kp F12 &kp F4 &kp F5 &kp F6 &kp F13 &none    &none  &none  &bt BT_SEL 4 &bt BT_SEL 5 &bt BT_CLR   &none
-            &kp F10 &kp F1 &kp F2 &kp F3 &kp F11                 &none  &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &none
+            &kp F12 &kp F4 &kp F5 &kp F6 &kp F13 &none    &none  &none  &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_CLR   &none
+            &kp F10 &kp F1 &kp F2 &kp F3 &kp F11                 &none  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &none
                                   &trans &trans  &trans   &trans &trans &trans
             >;
       };
