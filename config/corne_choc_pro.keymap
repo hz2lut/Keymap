@@ -55,7 +55,7 @@ ht: ht {
        flavor = "balanced";
        tapping-term-ms = <200>;
        quick-tap-ms = <175>;
-       bindings = <&kp>, <&lm>;
+       bindings = <&lm>, <&kp>;
        hold-trigger-on-release;
     };
    };
@@ -76,7 +76,7 @@ ht: ht {
          bindings = <
             &kp Q      &kp W      &kp E       &kp R     &kp T     &none       &none   &kp Y           &kp U &kp I           &kp O        &kp P
             &kp A      &kp S      &kp D       &kp F     &kp G     &none       &none   &kp H           &kp J &kp K           &kp L        &lang ENGRAM
-            &ht Z LCMD &ht X LALT &ht C LCTRL &kp V     &kp B                         &kp N           &kp M &ht COMMA RCTRL &ht DOT RALT &ht FSLH RCMD
+            &ht LCMD Z &ht LALT X &ht LCTRL C &kp V     &kp B                         &kp N           &kp M &ht RCTRL COMMA &ht RALT DOT &ht RCMD FSLH
                                               &sk LSHFT &sl LOWER &kp COMMA   &kp RET &lt RAISE SPACE &mt RSHIFT BSPC
             >;
       };
