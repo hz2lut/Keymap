@@ -65,37 +65,37 @@ ht: ht {
       engram_layer {
          display-name = "ENGRAM";
          bindings = <
-            &kp B      &kp Y      &kp O       &kp U     &kp DLLR  &none      &none     &kp CARET       &kp L &kp D       &kp W      &kp V
-            &kp C      &kp I      &kp E       &kp A     &kp AT    &none      &none     &lang QWERTY    &kp H &kp T       &kp S      &kp N
-            &mt LCMD G &mt LALT X &mt LCTRL J &kp K     &kp Z                          &kp Q           &kp R &mt RCTRL M &mt RALT F &mt RCMD P
-                                              &sk LSHFT &sl LOWER &kp BSPC   &kp COMMA &lt RAISE SPACE &mt RSHIFT RET
+            &kp B      &kp Y      &kp O       &kp U     &kp DLLR  &none       &none   &kp CARET       &kp L &kp D       &kp W      &kp V
+            &kp C      &kp I      &kp E       &kp A     &kp AT    &none       &none   &lang QWERTY    &kp H &kp T       &kp S      &kp N
+            &mt LCMD G &mt LALT X &mt LCTRL J &kp K     &kp Z                         &kp Q           &kp R &mt RCTRL M &mt RALT F &mt RCMD P
+                                              &sk LSHFT &sl LOWER &kp COMMA   &kp RET &lt RAISE SPACE &mt RSHIFT BSPC
             >;
       };
       qwerty_layer {
          display-name = "QWERTY";
          bindings = <
-            &kp Q      &kp W      &kp E       &kp R     &kp T     &none      &none     &kp Y           &kp U &kp I           &kp O        &kp P
-            &kp A      &kp S      &kp D       &kp F     &kp G     &none      &none     &kp H           &kp J &kp K           &kp L        &lang ENGRAM
-            &ht Z LCMD &ht X LALT &ht C LCTRL &kp V     &kp B                          &kp N           &kp M &ht COMMA RCTRL &ht DOT RALT &ht FSLH RCMD
-                                              &sk LSHFT &sl LOWER &kp BSPC   &kp COMMA &lt RAISE SPACE &mt RSHIFT RET
+            &kp Q      &kp W      &kp E       &kp R     &kp T     &none       &none   &kp Y           &kp U &kp I           &kp O        &kp P
+            &kp A      &kp S      &kp D       &kp F     &kp G     &none       &none   &kp H           &kp J &kp K           &kp L        &lang ENGRAM
+            &ht Z LCMD &ht X LALT &ht C LCTRL &kp V     &kp B                         &kp N           &kp M &ht COMMA RCTRL &ht DOT RALT &ht FSLH RCMD
+                                              &sk LSHFT &sl LOWER &kp COMMA   &kp RET &lt RAISE SPACE &mt RSHIFT BSPC
             >;
       };
       lower_layer {
          display-name = "LOWER";
          bindings = <
-            &kp LBKT &kp LBRC &kp RBRC  &kp RBKT      &kp DLLR  &none         &none     &kp CARET      &kp HASH  &kp FSLH  &kp ASTRK &kp PRCNT
-            &kp DOT  &kp LPAR &kp RPAR  &kp SEMI      &kp GRAVE &none         &none     &kp TILDE      &kp EQUAL &kp UNDER &kp SQT   &kp DQT
-            &kp LT   &kp PLUS &kp MINUS &kp GT        &kp AMPS                          &kp PIPE       &kp EXCL  &kp QMARK &kp COLON &kp BSLH
-                                        &kp LC(SPACE) &trans    &bootloader   &kp LC(B) &lt ADJUST TAB &mt RSHIFT ESC
+            &kp LBKT &kp LBRC &kp RBRC  &kp RBKT      &kp DLLR  &none         &none   &kp CARET      &kp HASH  &kp FSLH  &kp ASTRK &kp PRCNT
+            &kp DOT  &kp LPAR &kp RPAR  &kp SEMI      &kp GRAVE &none         &none   &kp TILDE      &kp EQUAL &kp UNDER &kp DQT   &kp SQT
+            &kp LT   &kp PLUS &kp MINUS &kp GT        &kp AMPS                        &kp PIPE       &kp EXCL  &kp QMARK &kp COLON &kp BSLH
+                                        &kp LC(SPACE) &trans    &bootloader   &kp ESC &lt ADJUST TAB &mt RSHIFT DEL
             >;
       };
       raise_layer {
          display-name = "RAISE";
          bindings = <
-            &kp LS(E) &kp N7 &kp N8 &kp N9  &kp LS(F)     &none     &none       &kp C_BRI_UP &kp HOME   &kp PG_DN    &kp PG_UP    &kp END
-            &kp LS(C) &kp N4 &kp N5 &kp N6  &kp LS(D)     &none     &none       &kp C_PP     &kp LEFT   &kp DOWN     &kp UP       &kp RIGHT
-            &kp LS(A) &kp N1 &kp N2 &kp N3  &kp LS(B)                           &kp C_BRI_DN &kp C_PREV &kp C_VOL_DN &kp C_VOL_UP &kp C_NEXT
-                                    &kp DOT &lt ADJUST N0 &kp DEL   &bootloader &trans       &kp LC(SPACE)
+            &kp LS(E) &kp N7 &kp N8 &kp N9  &kp LS(F)     &none       &none       &kp C_BRI_UP &kp HOME   &kp PG_DN    &kp PG_UP    &kp END
+            &kp LS(C) &kp N4 &kp N5 &kp N6  &kp LS(D)     &none       &none       &kp C_PP     &kp LEFT   &kp DOWN     &kp UP       &kp RIGHT
+            &kp LS(A) &kp N1 &kp N2 &kp N3  &kp LS(B)                             &kp C_BRI_DN &kp C_PREV &kp C_VOL_DN &kp C_VOL_UP &kp C_NEXT
+                                    &kp DOT &lt ADJUST N0 &kp LC(B)   &bootloader &trans       &kp LC(SPACE)
             >;
       };
       adjust_layer {
