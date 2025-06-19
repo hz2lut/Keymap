@@ -58,7 +58,7 @@ lang: lang {
          display-name = "LOWER";
          bindings = <
             &kp LBKT &kp LBRC &kp RBRC  &kp RBKT      &kp DLLR  &none         &none   &kp CARET      &kp HASH  &kp FSLH  &kp ASTRK &kp PRCNT
-            &kp DOT  &kp LPAR &kp RPAR  &kp SEMI      &kp GRAVE &none         &none   &kp TILDE      &kp EQUAL &kp UNDER &kp DQT   &kp SQT
+            &kp DOT  &kp LPAR &kp RPAR  &kp SEMI      &kp GRAVE &none         &none   &kp TILDE      &kp UNDER &kp EQUAL &kp DQT   &kp SQT
             &kp LT   &kp PLUS &kp MINUS &kp GT        &kp AMPS                        &kp PIPE       &kp EXCL  &kp QMARK &kp COLON &kp BSLH
                                         &kp LC(SPACE) &trans    &bootloader   &kp ESC &lt ADJUST TAB &mt RSHIFT DEL
             >;
